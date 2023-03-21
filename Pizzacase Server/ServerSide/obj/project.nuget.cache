@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sLa6FBCqIEvsNVII5amu+Etm4qclIvJMmcrZchqf/B4Y/gx9xgqlygOln1F2Zc31g/hFqrPzKfyiAOENh9TE+Q==",
+  "dgSpecHash": "ssDzy07F80vuBweB0/GlFPF0y3Lw32rzVwEqHUQjuhSxFDOY6lSoIqmf04ZxV5qWwzElpm1fyELuDBJFiUOmOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ServerSide\\ServerSide.csproj",
+  "projectFilePath": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ServerSide\\ServerSide.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denni\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
-    "C:\\Users\\denni\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
-    "C:\\Users\\denni\\.nuget\\packages\\system.net.primitives\\4.3.1\\system.net.primitives.4.3.1.nupkg.sha512",
-    "C:\\Users\\denni\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
-    "C:\\Users\\denni\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512"
+    "C:\\Users\\melle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\system.net.primitives\\4.3.1\\system.net.primitives.4.3.1.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

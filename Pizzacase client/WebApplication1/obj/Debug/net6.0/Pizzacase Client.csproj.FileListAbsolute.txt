@@ -29,3 +29,34 @@ C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\D
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.pdb
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.genruntimeconfig.cache
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\ref\Pizzacase Client.dll
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.staticwebassets.runtime.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.exe
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.deps.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.runtimeconfig.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.dll
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\bin\Debug\net6.0\Pizzacase Client.pdb
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.csproj.AssemblyReference.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.AssemblyInfoInputs.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.AssemblyInfo.cs
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.csproj.CoreCompileInputs.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.RazorAssemblyInfo.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.RazorAssemblyInfo.cs
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.Pizzacase Client.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.Pizzacase Client.props
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Pizzacase Client.props
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Pizzacase Client.props
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\Pizzacase Client.styles.css
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\scopedcss\projectbundle\Pizzacase Client.bundle.scp.css
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.dll
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\refint\Pizzacase Client.dll
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.pdb
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\Pizzacase Client.genruntimeconfig.cache
+C:\Users\melle\Documents\GitHub\Pizzacase\Pizzacase client\WebApplication1\obj\Debug\net6.0\ref\Pizzacase Client.dll
