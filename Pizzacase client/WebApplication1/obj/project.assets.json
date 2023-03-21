@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\WebApplication1\\Pizzacase Client.csproj",
+      "projectName": "Pizzacase Client",
+      "projectPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\WebApplication1\\Pizzacase Client.csproj",
       "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",

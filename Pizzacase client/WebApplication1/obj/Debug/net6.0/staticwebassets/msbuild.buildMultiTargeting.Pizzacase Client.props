@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pizzacase Client.props" />
+</Project>

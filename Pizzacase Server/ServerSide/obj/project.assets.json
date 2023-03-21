@@ -314,11 +314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ConsoleApp1\\ServerSide.csproj",
+      "projectUniqueName": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ServerSide\\ServerSide.csproj",
       "projectName": "ServerSide",
-      "projectPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ConsoleApp1\\ServerSide.csproj",
+      "projectPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ServerSide\\ServerSide.csproj",
       "packagesPath": "C:\\Users\\denni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\ServerSide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

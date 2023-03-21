@@ -29,3 +29,14 @@ C:\Users\melle\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6
 C:\Users\melle\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.pdb
 C:\Users\melle\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.genruntimeconfig.cache
 C:\Users\melle\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\ref\Pizzaclient.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.csproj.AssemblyReference.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.AssemblyInfoInputs.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.AssemblyInfo.cs
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.csproj.CoreCompileInputs.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.RazorAssemblyInfo.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.RazorAssemblyInfo.cs
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\refint\Pizzaclient.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzaclient\Pizzaclient\obj\Debug\net6.0\Pizzaclient.pdb
