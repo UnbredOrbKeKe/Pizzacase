@@ -18,11 +18,10 @@ namespace Pizzacase_client.Connection
             using (var client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
             {
                 IPAddress serverIP = IPAddress.Parse("127.0.0.1");
-                IPEndPoint serverEndPoint = new IPEndPoint(serverIP, 8080);
+                IPEndPoint serverEndPoint = new IPEndPoint(serverIP, 80);
                 client.Connect(serverEndPoint);
 
                 var messageBytes = Encoding.ASCII.GetBytes(message);
-                Console.WriteLine("Send message: {0}", messageBytes);
                 client.Send(messageBytes);
 
                 var buffer = new byte[1024];
