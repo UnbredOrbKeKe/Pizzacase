@@ -5,10 +5,22 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Order Pizza</h1>
 </div>
-<form method="post">
+
+<form method="dropdown">
+    <div class="form-group">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item">Calzone</a></li>
+            <li><a class="dropdown-item">Margerita</a></li>
+            <li><a class="dropdown-item">salami</a></li>
+            <li><a class="dropdown-item">Diavolo</a></li>
+        </ul>
+    </div>
+
     <button class="btn btn-primary" type="submit" asp-page-handler="klik">KLik HIER</button>
 </form>
 <h1>@Model.Name</h1>
