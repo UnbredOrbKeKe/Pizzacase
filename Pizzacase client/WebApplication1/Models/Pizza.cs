@@ -4,7 +4,7 @@
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public int topping { get; set; }
+        public int Topping { get; set; }
         public string ToppingTypes { get; set; }
     }
 }

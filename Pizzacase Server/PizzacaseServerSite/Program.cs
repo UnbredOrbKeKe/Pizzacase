@@ -1,9 +1,14 @@
 using PizzacaseServerSite.ServerListening;
 
 var builder = WebApplication.CreateBuilder(args);
+//comment out to switch between tcp and udp connection
+var listener = new ListenerTCP();
+Task.Run(() => listener.StartTcpServer());
 
-var listener = new Listener();
-Task.Run(() => listener.StartListening());
+//var listener = new ListenerUDP();
+//Task.Run(() => listener.StartUdpServer());
+
+
 
 // Add services to the container.
 builder.Services.AddRazorPages();

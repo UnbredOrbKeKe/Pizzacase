@@ -3,17 +3,22 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net;
 using System.Net.Sockets;
 using Pizzacase_client.Connection;
+using PizzacaseServerSite.Models;
+using System;
 
 namespace WebApplication1.Pages
 {
     public class IndexModel : PageModel
     {
-        ConnectionServer server = ConnectionServer.GetInstance();
+        //comment out to switch between tcp and udp connection
+        ConnectionTCPServer server = ConnectionTCPServer.GetInstance();
+        //ConnectionUDPServer server = ConnectionUDPServer.GetInstance();
 
 
         private readonly ILogger<IndexModel> _logger;
 
         [BindProperty] public string Name { get; set; }
+        [BindProperty] public List<Pizza> pizzas { get; set; }
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -22,13 +27,40 @@ namespace WebApplication1.Pages
 
         public void OnGet()
         {
+            
 
+            
         }
 
         public void OnPostKlik()
         {
-            string klik = "\n-------------\nJansen\nNieuwestad 14\n8901 PM Leeuwarden\nCalzone\n2\n0\nDiavolo\n1\n1\nMozzarella\n05/12/2022 18:32\n-------------";
-            string test = server.SendMessage(klik);
+            var guid = Guid.NewGuid();
+            pizzas = new List<Pizza>();
+            pizzas.Add(new Pizza
+            {
+                Name = "calzone",
+                Id = guid,
+                Topping = 2,
+                ToppingTypes = "asdfasd, asdf"
+            });
+
+            var order = new Order
+            {
+                Id = guid,
+                Name = "asdfa",
+                Address = "asdfasdfjasdofij",
+                Zipcode_City = "asdfhopiwue",
+                Pizzas = pizzas.Select(p => new Pizza
+                {
+                    Name = p.Name,
+                    Id = guid,
+                    Topping = p.Topping,
+                    ToppingTypes = p.ToppingTypes,
+                }).ToList(),
+                Date = DateTime.Now
+            };
+
+            string test = server.SendMessage(order);
             Name = test;
         }
     }

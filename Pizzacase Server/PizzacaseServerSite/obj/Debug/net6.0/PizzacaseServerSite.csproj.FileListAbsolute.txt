@@ -32,3 +32,4 @@ C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase Server\PizzacaseServerSite\o
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase Server\PizzacaseServerSite\bin\Debug\net6.0\Dapper.dll
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase Server\PizzacaseServerSite\bin\Debug\net6.0\Npgsql.dll
 C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase Server\PizzacaseServerSite\obj\Debug\net6.0\PizzacaseServerSite.csproj.CopyComplete
+C:\Users\denni\Documents\GitHub\Pizzacase\Pizzacase Server\PizzacaseServerSite\bin\Debug\net6.0\Newtonsoft.Json.dll

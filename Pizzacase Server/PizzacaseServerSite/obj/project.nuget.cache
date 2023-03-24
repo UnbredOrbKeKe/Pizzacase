@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "16HpvOJwVzunXAhfDzgfLYwmg8NpWFirVuxgJma3KA8epd+WvqR86MfxPlu0N5gnpP6JxeE8l/QD2HNhTrNHhA==",
+  "dgSpecHash": "arQErpI9yRHjVo+S4kRV+xnz23VYUEnJz13MFkYRHus5qGoplbHxrwNWbjF3c9+7W5u0guYFya8J28TJJzPCHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\PizzacaseServerSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denni\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\denni\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\denni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\denni\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
     "C:\\Users\\denni\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
