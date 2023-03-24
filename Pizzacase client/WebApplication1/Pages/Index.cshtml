@@ -8,19 +8,86 @@
     <h1 class="display-4">Order Pizza</h1>
 </div>
 
-<form method="dropdown">
+
+
+
+<ul>
+    @if (Model.Pizzas == null)
+    {
+        <li>Geen pizza's gevonden</li>
+    }
+    else
+    @foreach (var pizza in Model.Pizzas)
+    {
+        <li>@pizza.Name</li>
+    }
+</ul>
+
+<form method="post">
+
     <div class="form-group">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown button
         </button>
+
         <ul class="dropdown-menu">
-            <li><a class="dropdown-item">Calzone</a></li>
-            <li><a class="dropdown-item">Margerita</a></li>
-            <li><a class="dropdown-item">salami</a></li>
-            <li><a class="dropdown-item">Diavolo</a></li>
+            <li><a class="dropdown-item" id="pepperoni">Peperoni</a></li>
+            <li><a class="dropdown-item" id="margherita">Margherita</a></li>
+            <li><a class="dropdown-item" id="hawaii">Hawaii</a></li>
+            <li><a class="dropdown-item" id="calzone">Calzone</a></li>
+            <li><a class="dropdown-item" id="quattro">Quattro Formaggi</a></li>
+            <li><a class="dropdown-item" id="funghi">Funghi</a></li>
+            <li><a class="dropdown-item" id="vegetariana">Vegetariana</a></li>
+            <li><a class="dropdown-item" id="siciliana">Siciliana</a></li>
+            <li><a class="dropdown-item" id="napolitana">Napolitana</a></li>
+            <li><a class="dropdown-item" id="romana">Romana</a></li>
+            <li><a class="dropdown-item" id="capricciosa">Capricciosa</a></li>
+            <li><a class="dropdown-item" id="quattro stagioni">Quattro Stagioni</a></li>
+            <li><a class="dropdown-item" id="quattro formaggi">Quattro Formaggi</a></li>
         </ul>
     </div>
 
-    <button class="btn btn-primary" type="submit" asp-page-handler="klik">KLik HIER</button>
+    <button class="btn btn-primary" type="submit" asp-page-handler="klik">kies pizza</button>
+
+    <input type="hidden" name="selectedValue" id="selectedValue">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Address</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Phone Number</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Email</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Order</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Order">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Price</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Price">
+    </div>
+
+
 </form>
+
+
+<script>
+    // Listen for click events on dropdown items
+    var dropdownItems = document.querySelectorAll('.dropdown-item');
+    dropdownItems.forEach(function (item) {
+        item.addEventListener('click', function () {
+            // Update the hidden input field with the selected dropdown item's id
+            document.getElementById('selectedValue').value = item.id;
+        });
+    });
+</script>
+
 <h1>@Model.Name</h1>

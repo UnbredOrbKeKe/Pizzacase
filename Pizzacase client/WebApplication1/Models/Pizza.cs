@@ -2,14 +2,21 @@
 {
     public class Pizza
     {
-        private string v;
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public int Topping { get; set; }
+        public string ToppingTypes { get; set; }
 
-        public Pizza(string v)
-        {
-            this.v = v;
-        }
+        //public Pizza(int id, string name, int topping, string toppingtypes)
+        //{
+        //    Name = name;
+        //    Id = id;
+        //    this.topping = topping;
+        //    ToppingTypes = toppingtypes;
 
-        public string PizzaName { get; set; }
+        //}
+
+        
  
     }
 }
