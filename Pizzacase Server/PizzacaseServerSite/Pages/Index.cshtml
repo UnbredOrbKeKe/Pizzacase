@@ -1,0 +1,41 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row" style=" display: flex; justify-content: space-between">
+@{
+    if (Model.orders != null)
+    {
+        foreach(var order in Model.orders)
+        {
+            
+                <div class="card mb-3" style="max-width: 45%; padding: unset;">
+                    <div class="row g-0">
+                        <div class="col-8">
+                            <div class="card-body col-md-8">
+                                <h5 class="card-title">@order.CustomerName</h5>
+                                <p class="card-text">@order.CustomerAddress</p>
+                                <p class="card-text">@order.CustomerZipcode</p>
+                                @foreach (var pizza in order.PizzaList)
+                                {
+                                    <p class="card-text">@pizza.PizzaName</p>
+                                    <p class="card-text">@pizza.Amount</p>
+                                    <p class="card-text">@pizza.ExtraToppings</p>
+                                    <p class="card-text">@pizza.ToppingTypes</p>
+                                }
+                                <p class="card-text">@order.Datum</p>
+                                <form method="post" asp-page-handler="Delete">
+                                    <input type="hidden" asp-for="orderId" value="@order.OrderId"/>
+                                <button type="submit" class="btn btn-primary">Order Finished</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            
+        }
+    }
+}
+</div>
