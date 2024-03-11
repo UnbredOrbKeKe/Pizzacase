@@ -1,16 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using PizzacaseServerSite.Models;
+using PizzacaseServerSite.Repository;
 using PizzacaseServerSite.ServerListening;
 
 namespace PizzacaseServerSite.Pages
 {
     public class IndexModel : PageModel
     {
-        public static string Test = "\n";
-        [BindProperty] public IEnumerable<string> Order { get; set; }
-
-        [BindProperty] public Order order { get; set; }
+        [BindProperty] public IEnumerable<Order> orders {get; set;}
+        [BindProperty] public Guid orderId { get; set;}
 
         private readonly ILogger<IndexModel> _logger;
 
@@ -21,9 +20,13 @@ namespace PizzacaseServerSite.Pages
 
         public void OnGet()
         {
-            Order = Test.Split('\n');
-            order = ListenerTCP.order;
-            
+            orders = new OrderRepository().GetAllOrders();          
+        }
+
+        public RedirectToPageResult OnPostDelete() 
+        {
+            Console.WriteLine(orderId.ToString());
+            return new RedirectToPageResult("Index");
         }
     }
 }

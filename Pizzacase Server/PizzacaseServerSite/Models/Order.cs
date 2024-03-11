@@ -2,11 +2,11 @@
 {
     public class Order
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public string address { get; set; }
-        public string zipcode_city { get; set; }
-        public IEnumerable<Pizza> pizzas { get; set; }
-        public DateTime Date { get; set; }
+        public string OrderId { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerAddress { get; set; }
+        public string CustomerZipcode { get; set; }
+        public IEnumerable<Pizza> PizzaList { get; set; }
+        public DateTime Datum { get; set; }
     }
 }

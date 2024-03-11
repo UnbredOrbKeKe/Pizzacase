@@ -5,6 +5,7 @@ using PizzacaseServerSite.Pages;
 using Microsoft.AspNetCore.Mvc;
 using PizzacaseServerSite.Models;
 using Newtonsoft.Json;
+using PizzacaseServerSite.Repository;
 
 namespace PizzacaseServerSite.ServerListening
 {
@@ -13,7 +14,8 @@ namespace PizzacaseServerSite.ServerListening
         public static Order order = new Order();
         public void StartTcpServer() {
             Socket listener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Any, 80);
+            IPAddress serverIP = IPAddress.Parse("127.0.0.1");
+            IPEndPoint localEndPoint = new IPEndPoint(serverIP, 8080);
             listener.Bind(localEndPoint);
             listener.Listen(10);
 
@@ -31,10 +33,12 @@ namespace PizzacaseServerSite.ServerListening
                         string message = Encoding.ASCII.GetString(buffer, 0, bytesReceived);
                         Console.WriteLine("Received message: {0}", message);
                         order = JsonConvert.DeserializeObject<Order>(message);
-                        Console.WriteLine("Order ID: {0}", order.Id);
-                        Console.WriteLine("Order Name: {0}", order.Name);
-
-                        IndexModel.Test += message;
+                        Console.WriteLine("Order ID: {0}", order.OrderId);
+                        Console.WriteLine("Order Name: {0}", order.Datum);
+                        if(order.CustomerName != null)
+                        {
+                            IActionResult SaveOrder = new OrderRepository().AddOrder(order);
+                        }
 
                         string response = "Thank you for your order DumbAss!";
                         byte[] responseBytes = Encoding.ASCII.GetBytes(response);
@@ -74,7 +78,7 @@ namespace PizzacaseServerSite.ServerListening
                 int bytesReceived = listener.ReceiveFrom(buffer, ref remoteEndPoint);
                 string message = Encoding.ASCII.GetString(buffer, 0, bytesReceived);
                 Console.WriteLine("Received message: {0}", message);
-                IndexModel.Test += message;
+               
 
                 string response = "Thank you for your order DumbAss!";
                 byte[] responseBytes = Encoding.ASCII.GetBytes(response);
