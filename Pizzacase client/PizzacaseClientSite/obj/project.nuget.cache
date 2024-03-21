@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1yTO5RttTjHRWoZH+aYUUCkIIt+bX36yi1ksPQExciZV19AJmz9Ay7pHV/ZhAvANRb+htCInIU971kxaB2/+qg==",
+  "dgSpecHash": "oaiSYxnSeA75thePeI6i9lQRtixVY2KHta3jzonGOgNAkK/GzmTbwXfa5OOxLIMNAyVwwfuGQU9QVuBaCnAQ3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\PizzacaseClientSite\\Pizzacase Client.csproj",
+  "projectFilePath": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase client\\PizzacaseClientSite\\Pizzacase Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\denni\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\melle\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
