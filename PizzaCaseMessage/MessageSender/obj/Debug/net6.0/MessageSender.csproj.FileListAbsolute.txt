@@ -1,0 +1,15 @@
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\bin\Debug\net6.0\MessageSender.exe
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\bin\Debug\net6.0\MessageSender.deps.json
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\bin\Debug\net6.0\MessageSender.runtimeconfig.json
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\bin\Debug\net6.0\MessageSender.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\bin\Debug\net6.0\MessageSender.pdb
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.csproj.AssemblyReference.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.AssemblyInfoInputs.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.AssemblyInfo.cs
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.csproj.CoreCompileInputs.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\refint\MessageSender.dll
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.pdb
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\MessageSender.genruntimeconfig.cache
+C:\Users\denni\Documents\GitHub\Pizzacase\PizzaCaseMessage\MessageSender\obj\Debug\net6.0\ref\MessageSender.dll
