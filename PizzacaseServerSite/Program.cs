@@ -2,11 +2,7 @@ using PizzacaseServerSite.ServerListening;
 
 var builder = WebApplication.CreateBuilder(args);
 //comment out to switch between tcp and udp connection
-var TCPlistener = new ListenerTCP();
-Task.Run(() => TCPlistener.StartTcpServer());
 
-var UDPlistener = new ListenerUDP();
-Task.Run(() => UDPlistener.StartUdpServer());
 
 
 

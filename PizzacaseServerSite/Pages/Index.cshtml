@@ -3,6 +3,13 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<nav>
+    <form method="post" asp-page-handler="Connection">
+    <ul>        
+           <button type="submit" class="btn btn-success">Toggle Connection</button>
+    </ul>
+    </form>
+</nav>
 
 <div class="row" style=" display: flex; justify-content: space-between">
 @{

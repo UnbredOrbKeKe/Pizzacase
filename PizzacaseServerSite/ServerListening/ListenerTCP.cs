@@ -6,19 +6,24 @@ using Microsoft.AspNetCore.Mvc;
 using PizzacaseServerSite.Models;
 using Newtonsoft.Json;
 using PizzacaseServerSite.Repository;
+using PizzacaseServerSite.Decryption;
 
 namespace PizzacaseServerSite.ServerListening
 {
     public class ListenerTCP
     {
         //public static Order order = new Order();
+        static int port = 8080;
+        static string ipAddress = "127.0.0.1";
+
+        private TcpListener tcpListener = new TcpListener(IPAddress.Parse(ipAddress), port);
+        private bool isRunning;
+
         public void StartTcpServer()
         {
-            int port = 8080;
-            string ipAddress = "127.0.0.1";
-
-            TcpListener tcpListener = new TcpListener(IPAddress.Parse(ipAddress), port);
+            
             tcpListener.Start();
+            isRunning = true;
             Console.WriteLine("Tcp Server listening on " + ipAddress + ":" + port);
 
             while (true)
@@ -29,13 +34,24 @@ namespace PizzacaseServerSite.ServerListening
                 NetworkStream stream = client.GetStream();
                 byte[] buffer = new byte[1024];
                 int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                string message = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-                Console.WriteLine("Received message: " + message);
+                byte[] encryptedMessage = new byte[bytesRead];
+                Array.Copy(buffer, encryptedMessage, bytesRead);
+
+                string decryptedMessage = AESHelper.DecryptStringFromBytes(encryptedMessage);
+                Console.WriteLine("Received message: " + decryptedMessage);
 
 
                 client.Close();
             }
 
+        }
+        public void StopTcpServer()
+        {
+            if (isRunning)
+            {
+                isRunning = false;
+                tcpListener.Stop();
+            }
         }
     }
 }
