@@ -1,0 +1,20 @@
+{
+  "version": 2,
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/project.nuget.cache
+  "dgSpecHash": "O1pWO8yTprRiPSWmhshGYki2JoIUtfQxGyvp5xBmfv5KVLQE5cSvne7OKj7kWYBbdzhO7MSgt9cfmVRhl4elgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\PizzacaseServerSite.csproj",
+=======
+  "dgSpecHash": "N7t3Jz5yaFdjOnldCZlfik3Gzx/PQt3u16gbuCDYnh23vqtBfbtGD598VArVvxjmtv/ezc919Gs7ku4GyV7eNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\PizzacaseServerSite.csproj",
+>>>>>>> main:PizzacaseServerSite/obj/project.nuget.cache
+  "expectedPackageFiles": [
+    "C:\\Users\\melle\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\melle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

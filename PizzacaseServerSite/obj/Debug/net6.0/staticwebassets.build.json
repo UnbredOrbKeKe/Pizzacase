@@ -1,0 +1,1522 @@
+{
+  "Version": 1,
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+  "Hash": "5/hxueaNWICDlCp6kaAPjayjL9eIOPa2JK1E+Pb6XAY=",
+=======
+  "Hash": "CJ0vV7FFLZGHvA1Gp7uAx9yzQqG0d4ifx2BbxMJbmug=",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+  "Source": "PizzacaseServerSite",
+  "BasePath": "_content/PizzacaseServerSite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PizzacaseServerSite\\wwwroot",
+      "Source": "PizzacaseServerSite",
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PizzacaseServerSite.styles.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PizzacaseServerSite.styles.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "PizzacaseServerSite.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "OriginalItemSpec": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PizzacaseServerSite.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PizzacaseServerSite.bundle.scp.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PizzacaseServerSite.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PizzacaseServerSite.bundle.scp.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "PizzacaseServerSite.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "OriginalItemSpec": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PizzacaseServerSite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\css\\site.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PizzacaseServerSite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\css\\site.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\favicon.ico",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\favicon.ico",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\js\\site.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\js\\site.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/bootstrap/LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery/dist/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery/dist/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery/dist/jquery.min.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation/LICENSE.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+<<<<<<< HEAD:Pizzacase Server/PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "Identity": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melle\\Documents\\GitHub\\Pizzacase\\Pizzacase Server\\PizzacaseServerSite\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "PizzacaseServerSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\denni\\Documents\\GitHub\\Pizzacase\\PizzacaseServerSite\\wwwroot\\",
+>>>>>>> main:PizzacaseServerSite/obj/Debug/net6.0/staticwebassets.build.json
+      "BasePath": "_content/PizzacaseServerSite",
+      "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    }
+  ]
+}
