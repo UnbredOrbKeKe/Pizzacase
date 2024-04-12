@@ -1,18 +1,23 @@
 ﻿using System.Net.Sockets;
 using System.Net;
 using System.Text;
+using PizzacaseServerSite.Decryption;
+using System;
 
 namespace PizzacaseServerSite.ServerListening
 {
     public class ListenerUDP
     {
+        private UdpClient udpListener;
+        private bool isRunning;
 
         public void StartUdpServer()
         {
             int port = 8080;
             string ipAddress = "127.0.0.1";
 
-            UdpClient udpListener = new UdpClient(new IPEndPoint(IPAddress.Parse("127.0.0.1"), port));
+            udpListener = new UdpClient(new IPEndPoint(IPAddress.Parse(ipAddress), port));
+            isRunning = true;
             Console.WriteLine("UDP server listening on " + ipAddress + ":" + port);
 
             try
@@ -20,15 +25,16 @@ namespace PizzacaseServerSite.ServerListening
                 while (true)
                 {
                     IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
-                    byte[] receivedBytes = udpListener.Receive(ref remoteEndPoint);
-                    string receivedMessage = Encoding.UTF8.GetString(receivedBytes);
+                    byte[] buffer = udpListener.Receive(ref remoteEndPoint);
 
-                    Console.WriteLine("Received message: " + receivedMessage);
+                    // Creëer een byte-array met de juiste grootte gebaseerd op het aantal bytes dat daadwerkelijk is ontvangen
+                    byte[] receivedBytes = new byte[buffer.Length];
+                    Array.Copy(buffer, receivedBytes, buffer.Length);
 
-                    // Send a response back to the client
-                    string responseMessage = "Message received successfully!";
-                    byte[] responseData = Encoding.UTF8.GetBytes(responseMessage);
-                    udpListener.Send(responseData, responseData.Length, remoteEndPoint);
+                    // Decrypteer het ontvangen bericht
+                    string decryptedMessage = AESHelper.DecryptStringFromBytes(receivedBytes);
+
+                    Console.WriteLine("Received message: " + decryptedMessage);
                 }
             }
             catch (Exception e)
@@ -40,6 +46,14 @@ namespace PizzacaseServerSite.ServerListening
                 udpListener.Close();
             }
         }
-    
+        public void StopUdpServer()
+        {
+            if(isRunning)
+            {
+                isRunning = false;
+                udpListener.Close();
+            }            
+        }
+
     }
 }
