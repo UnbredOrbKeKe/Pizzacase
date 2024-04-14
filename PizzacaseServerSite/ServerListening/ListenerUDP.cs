@@ -18,6 +18,8 @@ namespace PizzacaseServerSite.ServerListening
         // Private constructor om directe instantiatie te voorkomen
         private ListenerUDP() { }
 
+        private static bool loggedIn = false;
+
         // Publieke toegang tot de singleton instance
         public static ListenerUDP Instance
         {
@@ -41,7 +43,7 @@ namespace PizzacaseServerSite.ServerListening
         {
             if (IndexModel.IsTcpConnectionOpen == false)
             {
-                bool loggedIn = false;
+                
                 int port = 8080;
                 string ipAddress = "127.0.0.1";
 
