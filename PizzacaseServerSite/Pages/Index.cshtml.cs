@@ -9,7 +9,7 @@ namespace PizzacaseServerSite.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ListenerTCP TCPlistener = new ListenerTCP();
+        private readonly ListenerTCP TCPlistener = ListenerTCP.Instance;
         private readonly ListenerUDP UDPlistener = new ListenerUDP();
 
 
