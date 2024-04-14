@@ -12,10 +12,9 @@ namespace PizzacaseServerSite.Pages
         private readonly ListenerTCP TCPlistener = ListenerTCP.Instance;
         private readonly ListenerUDP UDPlistener = new ListenerUDP();
 
-
         public static bool IsTcpConnectionOpen { get; set; }
-        [BindProperty] public IEnumerable<Order> orders {get; set;}
-        [BindProperty] public Guid orderId { get; set;}
+        [BindProperty] public IEnumerable<Order> orders { get; set; }
+        [BindProperty] public Guid orderId { get; set; }
 
         private readonly ILogger<IndexModel> _logger;
 
@@ -26,33 +25,31 @@ namespace PizzacaseServerSite.Pages
 
         public void OnGet()
         {
-            orders = new OrderRepository().GetAllOrders();      
-            IsTcpConnectionOpen = true;
-            Task.Run(() => TCPlistener.StartTcpServer());
+            orders = new OrderRepository().GetAllOrders();
+            Console.WriteLine(IsTcpConnectionOpen);
+            if (IsTcpConnectionOpen)
+            {
+                Task.Run(() => { TCPlistener.StartTcpServer(); });
+                Task.Run(() => { UDPlistener.StopUdpServer(); });
+            }
+            else
+            {
+                Task.Run(() => { UDPlistener.StartUdpServer(); });
+                Task.Run(() => { TCPlistener.StopTcpServer(); });
+            }            
         }
 
-        public RedirectToPageResult OnPostDelete() 
+        public RedirectToPageResult OnPostDelete()
         {
             Console.WriteLine(orderId.ToString());
             return new RedirectToPageResult("Index");
         }
 
-        public void OnPostConnection()
-        {           
+        public RedirectToPageResult OnPostConnection()
+        {
             IsTcpConnectionOpen = !IsTcpConnectionOpen;
-            
-            if (IsTcpConnectionOpen)
-            {                
-                Task.Run(() => TCPlistener.StartTcpServer());
-                UDPlistener.StopUdpServer();
-            }
-            else
-            {
-                
-                Task.Run(() => UDPlistener.StartUdpServer());
-                TCPlistener.StopTcpServer();
-            }
-            orders = new OrderRepository().GetAllOrders();
+
+            return new RedirectToPageResult("Index");
         }
     }
 }

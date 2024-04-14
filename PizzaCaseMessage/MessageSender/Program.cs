@@ -8,70 +8,99 @@ class Program
 {
     static void Main()
     {
+        bool loggedIn = false;
         string server = "127.0.0.1";
-        int port = 8080;
+        int portTCP = 8080;
+        int portUDP = 8080;
         byte[] IV = AESHelper.GenerateIV();
-        string ivString = BitConverter.ToString(IV).Replace("-", "");
-        Console.WriteLine(ivString);
-
 
         while (true)
         {
-            Console.WriteLine("Typ 'tcp' of 'udp' om bestelling te sturen of typ 'exit' om af te sluiten");
-            string input = Console.ReadLine();
-            string message = "Jansen\r\nNieuwestad 14\r\n8901 PM Leeuwarden\r\nCalzone\r\n2\r\n0\r\nDiavolo\r\n1\r\n1\r\nMozzarella\r\n" + DateTime.Now;
-            byte[] encryptedMessage = AESHelper.EncryptStringToBytes(message);
-
-            //bericht sturen via tcp
-            if (input.ToLower() == "tcp")
+            if(loggedIn == false) 
             {
-                try
-                {
-                    TcpClient tcpClient = new TcpClient(server, port);
-                    NetworkStream stream = tcpClient.GetStream();
+                Console.WriteLine("Stuur inloggevens als: 'AccountType, Wachtwoord'");
+                string inlog = Console.ReadLine();
+                byte[] inlogEnc = AESHelper.EncryptStringToBytes(inlog);
 
-                    // Send data                                       
-                    stream.Write(encryptedMessage, 0, encryptedMessage.Length);
-                    Console.WriteLine("Bericht verstuurd via tcp");
-
-                    // Close connection
-                    stream.Close();
-                    tcpClient.Close();
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine("Error: " + e.Message);
-                }
-            }
-            //bericht sturen via udp
-            else if (input.ToLower() == "udp")
-            {
                 UdpClient udpClient = new UdpClient();
                 try
                 {
-                   
-                    udpClient.Send(encryptedMessage, encryptedMessage.Length, server, port);
-                    Console.WriteLine("Bericht verstuurd via udp");
+                    udpClient.Send(inlogEnc, inlogEnc.Length, server, portUDP);
+                    Console.WriteLine("Inloggegevens gestuurd");
 
+                    string verify = Console.ReadLine();
+                    if(verify == "Correct, je bent ingelogd")
+                    {
+                        loggedIn = true;
+                    }
                 }
-                catch (Exception e)
+                catch (SocketException e)
                 {
-                    Console.WriteLine("Error: " + e.Message);
+                    Console.WriteLine("Error: Unable to connect to the server via UDP. " + e.Message);
                 }
                 finally
                 {
                     udpClient.Close();
                 }
-            }
-            else if (input.ToLower() == "exit")
+
+            }            
+
+            if (loggedIn)
             {
-                break;
-            }
-            else
-            {
-                Console.WriteLine("Das geen commando. Typ 'tcp', 'udp' of 'exit'.");
+
+                Console.WriteLine("Type 'tcp' or 'udp' to send a message, or 'exit' to quit");
+                string input = Console.ReadLine();
+                string messageTCP = "Jansen\r\nNieuwestad 14\r\n8901 PM Leeuwarden\r\nCalzone\r\n2\r\n0\r\nDiavolo\r\n1\r\n1\r\nMozzarella\r\n" + DateTime.Now;
+                string messageUDP = "Fransje\r\nBoornBats 14\r\n8901 PM Leeuwarden\r\nCalzone\r\n2\r\n0\r\nDiavolo\r\n1\r\n1\r\nMozzarella\r\n" + DateTime.Now;
+                byte[] encryptedMessageTCP = AESHelper.EncryptStringToBytes(messageTCP);
+                byte[] encryptedMessageUDP = AESHelper.EncryptStringToBytes(messageUDP);
+
+                if (input.ToLower() == "tcp")
+                {
+                    try
+                    {
+                        TcpClient tcpClient = new TcpClient(server, portTCP);
+                        NetworkStream stream = tcpClient.GetStream();
+
+                        // Send data                                       
+                        stream.Write(encryptedMessageTCP, 0, encryptedMessageTCP.Length);
+                        Console.WriteLine("Message sent via TCP");
+
+                        // Close connection
+                        stream.Close();
+                        tcpClient.Close();
+                    }
+                    catch (SocketException e)
+                    {
+                        Console.WriteLine("Error: Unable to connect to the server via TCP. " + e.Message);
+                    }
+                }
+                else if (input.ToLower() == "udp")
+                {
+                    UdpClient udpClient = new UdpClient();
+                    try
+                    {
+                        udpClient.Send(encryptedMessageUDP, encryptedMessageUDP.Length, server, portUDP);
+                        Console.WriteLine("Message sent via UDP");
+                    }
+                    catch (SocketException e)
+                    {
+                        Console.WriteLine("Error: Unable to connect to the server via UDP. " + e.Message);
+                    }
+                    finally
+                    {
+                        udpClient.Close();
+                    }
+                }
+                else if (input.ToLower() == "exit")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid command. Type 'tcp', 'udp', or 'exit'.");
+                }
             }
         }
     }
 }
-
