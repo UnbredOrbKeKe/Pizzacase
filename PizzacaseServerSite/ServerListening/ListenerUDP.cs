@@ -43,22 +43,17 @@ namespace PizzacaseServerSite.ServerListening
                         if (decryptedMessage == "Klant, wachtwoord" && loggedIn == false)
                         {
                             responseBytes = AESHelper.EncryptStringToBytes("Correct, je bent ingelogd");
-                            // Specify the destination endpoint (IP address and port) to send the response
-                            IPEndPoint remoteEndpoint = new IPEndPoint(remoteEndPoint.Address, port);
-
-                            // Send the response to the specified endpoint
-                            udpListener.Send(responseBytes, responseBytes.Length, remoteEndpoint);
+                            loggedIn = true;
+                            udpListener.Send(responseBytes, responseBytes.Length, remoteEndPoint);
                         }
                         else if (loggedIn == false)
                         {
                             responseBytes = AESHelper.EncryptStringToBytes("Incorrect probeer opnieuw");
-                            // Specify the destination endpoint (IP address and port) to send the response
-                            IPEndPoint remoteEndpoint = new IPEndPoint(remoteEndPoint.Address, port);
-
-                            // Send the response to the specified endpoint
-                            udpListener.Send(responseBytes, responseBytes.Length, remoteEndpoint);
+                            udpListener.Send(responseBytes, responseBytes.Length, remoteEndPoint);
                         }
+
                         
+
                     }
                 }
                 catch (Exception e)
