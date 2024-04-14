@@ -31,6 +31,29 @@ namespace PizzacaseServerSite.Decryption
             }
         }
 
+        public static byte[] EncryptStringToBytes(string plainText)
+        {
+            using (Aes aesAlg = Aes.Create())
+            {
+                aesAlg.Key = Key;
+                aesAlg.IV = IV;
+
+                ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV);
+
+                using (MemoryStream msEncrypt = new MemoryStream())
+                {
+                    using (CryptoStream csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                    {
+                        using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
+                        {
+                            swEncrypt.Write(plainText);
+                        }
+                        return msEncrypt.ToArray();
+                    }
+                }
+            }
+        }
+
         public static byte[] ConvertHexToBytes(string hexString)
         {
             if (hexString.Length % 2 != 0)

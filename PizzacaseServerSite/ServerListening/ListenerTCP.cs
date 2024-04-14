@@ -21,29 +21,31 @@ namespace PizzacaseServerSite.ServerListening
 
         public void StartTcpServer()
         {
-            
-            tcpListener.Start();
-            isRunning = true;
-            Console.WriteLine("Tcp Server listening on " + ipAddress + ":" + port);
-
-            while (true)
+            if (IndexModel.IsTcpConnectionOpen == true)
             {
-                TcpClient client = tcpListener.AcceptTcpClient();
-                Console.WriteLine("Client connected from " + ((IPEndPoint)client.Client.RemoteEndPoint).Address);
+                tcpListener.Start();
+                isRunning = true;
+                Console.WriteLine("Tcp Server listening on " + ipAddress + ":" + port);
 
-                NetworkStream stream = client.GetStream();
-                byte[] buffer = new byte[1024];
-                int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                byte[] encryptedMessage = new byte[bytesRead];
-                Array.Copy(buffer, encryptedMessage, bytesRead);
+                while (true)
+                {
 
-                string decryptedMessage = AESHelper.DecryptStringFromBytes(encryptedMessage);
-                Console.WriteLine("Received message: " + decryptedMessage);
+                    TcpClient client = tcpListener.AcceptTcpClient();
+                    Console.WriteLine("Client connected from " + ((IPEndPoint)client.Client.RemoteEndPoint).Address);
+
+                    NetworkStream stream = client.GetStream();
+                    byte[] buffer = new byte[1024];
+                    int bytesRead = stream.Read(buffer, 0, buffer.Length);
+                    byte[] encryptedMessage = new byte[bytesRead];
+                    Array.Copy(buffer, encryptedMessage, bytesRead);
+
+                    string decryptedMessage = AESHelper.DecryptStringFromBytes(encryptedMessage);
+                    Console.WriteLine("Received message: " + decryptedMessage);
 
 
-                client.Close();
+                    client.Close();
+                }
             }
-
         }
         public void StopTcpServer()
         {
