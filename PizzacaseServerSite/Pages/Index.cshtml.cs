@@ -10,7 +10,7 @@ namespace PizzacaseServerSite.Pages
     public class IndexModel : PageModel
     {
         private readonly ListenerTCP TCPlistener = ListenerTCP.Instance;
-        private readonly ListenerUDP UDPlistener = new ListenerUDP();
+        private readonly ListenerUDP UDPlistener = ListenerUDP.Instance;
 
         public static bool IsTcpConnectionOpen { get; set; }
         [BindProperty] public IEnumerable<Order> orders { get; set; }
