@@ -18,7 +18,7 @@ class Program
         {
             if(loggedIn == false) 
             {
-                Console.WriteLine("Stuur inloggevens als: 'AccountType, Wachtwoord'");
+                Console.WriteLine("Stuur inloggegevens als: 'AccountType, Wachtwoord'");
                 string inlog = Console.ReadLine();
                 byte[] inlogEnc = AESHelper.EncryptStringToBytes(inlog);
 
@@ -28,8 +28,14 @@ class Program
                     udpClient.Send(inlogEnc, inlogEnc.Length, server, portUDP);
                     Console.WriteLine("Inloggegevens gestuurd");
 
-                    string verify = Console.ReadLine();
-                    if(verify == "Correct, je bent ingelogd")
+                    // Receive response from the server
+                    IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    byte[] responseBytes = udpClient.Receive(ref remoteEndPoint);
+                    string response = AESHelper.DecryptStringFromBytes(responseBytes);
+
+                    Console.WriteLine("Server response: " + response);
+
+                    if (response == "Correct, je bent ingelogd")
                     {
                         loggedIn = true;
                     }
@@ -43,7 +49,7 @@ class Program
                     udpClient.Close();
                 }
 
-            }            
+            }
 
             if (loggedIn)
             {
@@ -96,9 +102,13 @@ class Program
                 {
                     break;
                 }
+                else if (input.ToLower() == "logout")
+                {
+                    loggedIn = false;
+                }
                 else
                 {
-                    Console.WriteLine("Invalid command. Type 'tcp', 'udp', or 'exit'.");
+                    Console.WriteLine("Invalid command. Type 'tcp', 'udp', 'logout' or 'exit'.");
                 }
             }
         }
