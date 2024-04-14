@@ -14,6 +14,11 @@ class Program
         int portUDP = 8080;
         byte[] IV = AESHelper.GenerateIV();
 
+
+        // Create visitor instances
+        IMessageVisitor tcpVisitor = new TCPMessageProcessor();
+        IMessageVisitor udpVisitor = new UDPMessageProcessor();
+
         while (true)
         {
             if(loggedIn == false) 
@@ -54,7 +59,7 @@ class Program
             if (loggedIn)
             {
 
-                Console.WriteLine("Type 'tcp' or 'udp' to send a message, or 'exit' to quit");
+                Console.WriteLine("Type 'tcp' or 'udp' to send a message, 'logout' to logout or 'exit' to quit");
                 string input = Console.ReadLine();
                 string messageTCP = "Jansen\r\nNieuwestad 14\r\n8901 PM Leeuwarden\r\nCalzone\r\n2\r\n0\r\nDiavolo\r\n1\r\n1\r\nMozzarella\r\n" + DateTime.Now;
                 string messageUDP = "Fransje\r\nBoornBats 14\r\n8901 PM Leeuwarden\r\nCalzone\r\n2\r\n0\r\nDiavolo\r\n1\r\n1\r\nMozzarella\r\n" + DateTime.Now;
@@ -65,16 +70,11 @@ class Program
                 {
                     try
                     {
-                        TcpClient tcpClient = new TcpClient(server, portTCP);
-                        NetworkStream stream = tcpClient.GetStream();
-
-                        // Send data                                       
-                        stream.Write(encryptedMessageTCP, 0, encryptedMessageTCP.Length);
+                        // Send TCP message
+                        tcpVisitor.VisitTCPMessage(encryptedMessageTCP);
                         Console.WriteLine("Message sent via TCP");
 
-                        // Close connection
-                        stream.Close();
-                        tcpClient.Close();
+                        
                     }
                     catch (SocketException e)
                     {
@@ -83,20 +83,10 @@ class Program
                 }
                 else if (input.ToLower() == "udp")
                 {
-                    UdpClient udpClient = new UdpClient();
-                    try
-                    {
-                        udpClient.Send(encryptedMessageUDP, encryptedMessageUDP.Length, server, portUDP);
-                        Console.WriteLine("Message sent via UDP");
-                    }
-                    catch (SocketException e)
-                    {
-                        Console.WriteLine("Error: Unable to connect to the server via UDP. " + e.Message);
-                    }
-                    finally
-                    {
-                        udpClient.Close();
-                    }
+                    // Send UDP message
+                    udpVisitor.VisitUDPMessage(encryptedMessageUDP);
+                    Console.WriteLine("Message sent via UDP");
+
                 }
                 else if (input.ToLower() == "exit")
                 {

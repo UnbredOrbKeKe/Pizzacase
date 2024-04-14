@@ -40,7 +40,7 @@ namespace PizzacaseServerSite.ServerListening
                         Console.WriteLine("Received message: " + decryptedMessage);
 
                         byte[] responseBytes;
-                        if (decryptedMessage == "Klant, wachtwoord" && loggedIn == false)
+                        if (decryptedMessage == "Klant, wachtwoord")
                         {
                             responseBytes = AESHelper.EncryptStringToBytes("Correct, je bent ingelogd");
                             loggedIn = true;
