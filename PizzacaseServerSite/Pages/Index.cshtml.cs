@@ -29,8 +29,9 @@ namespace PizzacaseServerSite.Pages
             Console.WriteLine(IsTcpConnectionOpen);
             if (IsTcpConnectionOpen)
             {
-                Task.Run(() => { TCPlistener.StartTcpServer(); });
-                Task.Run(() => { UDPlistener.StopUdpServer(); });
+               Task.Run(() => { UDPlistener.StopUdpServer(); });
+               Task.Run(() => { TCPlistener.StartTcpServer(); });
+               
             }
             else
             {

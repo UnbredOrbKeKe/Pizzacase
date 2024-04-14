@@ -9,12 +9,13 @@ namespace PizzacaseServerSite.ServerListening
     {
         private static ListenerTCP _instance;
         private static readonly object _lock = new object();
+        private readonly object lockObject = new object();
 
         static int port = 8080;
         static string ipAddress = "127.0.0.1";
 
         private TcpListener tcpListener = new TcpListener(IPAddress.Parse(ipAddress), port);
-        private bool isRunning;
+        private volatile bool isRunning;
 
         // Private constructor to prevent external instantiation.
         private ListenerTCP() { }
@@ -40,35 +41,83 @@ namespace PizzacaseServerSite.ServerListening
 
         public void StartTcpServer()
         {
-            tcpListener.Start();
-            isRunning = true;
-            Console.WriteLine("Tcp Server listening on " + ipAddress + ":" + port);
-
-            while (isRunning)
+            if (!isRunning)
             {
-                TcpClient client = tcpListener.AcceptTcpClient();
-                Console.WriteLine("Client connected from " + ((IPEndPoint)client.Client.RemoteEndPoint).Address);
+                isRunning = true;
+                tcpListener = new TcpListener(IPAddress.Parse(ipAddress), port);
+                tcpListener.Start();
+                Console.WriteLine("TCP Server listening on " + ipAddress + ":" + port);
 
-                NetworkStream stream = client.GetStream();
-                byte[] buffer = new byte[1024];
-                int bytesRead = stream.Read(buffer, 0, buffer.Length);
-                byte[] encryptedMessage = new byte[bytesRead];
-                Array.Copy(buffer, encryptedMessage, bytesRead);
+                try
+                {
+                    while (isRunning)
+                    {
+                        try
+                        {
+                            if (tcpListener.Pending())
+                            {
+                                TcpClient client = tcpListener.AcceptTcpClient();
+                                Console.WriteLine("Client connected from " + ((IPEndPoint)client.Client.RemoteEndPoint).Address);
 
-                string decryptedMessage = AESHelper.DecryptStringFromBytes(encryptedMessage);
-                Console.WriteLine("Received message: " + decryptedMessage);
+                                NetworkStream stream = client.GetStream();
+                                byte[] buffer = new byte[1024];
+                                int bytesRead = stream.Read(buffer, 0, buffer.Length);
+                                byte[] encryptedMessage = new byte[bytesRead];
+                                Array.Copy(buffer, encryptedMessage, bytesRead);
 
-                client.Close();
+                                string decryptedMessage = AESHelper.DecryptStringFromBytes(encryptedMessage);
+                                Console.WriteLine("Received message: " + decryptedMessage);
+
+                                client.Close();
+                            }
+                            else
+                            {
+                                // No pending connection; sleep briefly to reduce CPU usage.
+                                System.Threading.Thread.Sleep(100);
+                            }
+                        }
+                        catch (SocketException ex)
+                        {
+                            // Check if the exception is due to the stopping of the listener
+                            if (ex.SocketErrorCode == SocketError.Interrupted)
+                            {
+                                Console.WriteLine("TCP Server stopping...");
+                                break;
+                            }
+                            else
+                            {
+                                throw; // Re-throw the exception if it's not the expected one
+                            }
+                        }
+                    }
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Error: " + e.Message);
+                }
+                finally
+                {
+                    tcpListener.Stop();
+                    Console.WriteLine("TCP Server stopped.");
+                }
             }
         }
 
         public void StopTcpServer()
         {
-            if (isRunning)
+            Console.WriteLine("Attempting to stop TCP Server...");
+            lock (lockObject)
             {
-                isRunning = false;
-                tcpListener.Stop();
-                Console.WriteLine("TCP Server stopped.");
+                if (isRunning)
+                {
+                    isRunning = false;
+                    tcpListener.Stop();
+                    Console.WriteLine("TCP Server stopped.");
+                }
+                else
+                {
+                    Console.WriteLine("Stop request ignored: TCP Server was already stopped.");
+                }
             }
         }
     }
