@@ -6,9 +6,10 @@ using System.Text;
 
 class Program
 {
+    public static bool loggedIn = false;
     static void Main()
     {
-        bool loggedIn = false;
+        
         string server = "127.0.0.1";
         int portTCP = 8080;
         int portUDP = 8080;
@@ -26,33 +27,7 @@ class Program
                 Console.WriteLine("Stuur inloggegevens als: 'AccountType, Wachtwoord'");
                 string inlog = Console.ReadLine();
                 byte[] inlogEnc = AESHelper.EncryptStringToBytes(inlog);
-
-                UdpClient udpClient = new UdpClient();
-                try
-                {
-                    udpClient.Send(inlogEnc, inlogEnc.Length, server, portUDP);
-                    Console.WriteLine("Inloggegevens gestuurd");
-
-                    // Receive response from the server
-                    IPEndPoint remoteEndPoint = new IPEndPoint(IPAddress.Any, 0);
-                    byte[] responseBytes = udpClient.Receive(ref remoteEndPoint);
-                    string response = AESHelper.DecryptStringFromBytes(responseBytes);
-
-                    Console.WriteLine("Server response: " + response);
-
-                    if (response == "Correct, je bent ingelogd")
-                    {
-                        loggedIn = true;
-                    }
-                }
-                catch (SocketException e)
-                {
-                    Console.WriteLine("Error: Unable to connect to the server via UDP. " + e.Message);
-                }
-                finally
-                {
-                    udpClient.Close();
-                }
+                udpVisitor.VisitUDPMessageLogin(inlogEnc);
 
             }
 
@@ -72,9 +47,7 @@ class Program
                     {
                         // Send TCP message
                         tcpVisitor.VisitTCPMessage(encryptedMessageTCP);
-                        Console.WriteLine("Message sent via TCP");
-
-                        
+                        Console.WriteLine("Message sent via TCP");                        
                     }
                     catch (SocketException e)
                     {
